@@ -93,11 +93,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&kp LA(LC(LG(N8)))  &kp LC(LG(KP_NUMBER_0))  &kp LC(LG(KP_NUMBER_9))  &kp LC(LG(KP_NUMBER_8))  &kp LC(LG(KP_NUMBER_7))  &kp LC(LA(LG(N7)))                    &trans  &trans                  &trans                  &trans                   &trans  &trans
+&kp LC(LA(N8))      &kp LG(KP_NUMBER_0)      &kp LG(KP_NUMBER_9)      &kp LG(KP_NUMBER_8)      &kp LG(KP_NUMBER_7)      &kp LC(LA(N7))                        &trans  &kp LA(LC(LG(O)))       &kp LC(LG(UP_ARROW))    &kp LA(LC(LG(P)))        &trans  &trans
+&kp LA(LC(N6))      &kp LA(LC(N5))           &kp LA(LC(N4))           &kp LA(LC(N3))           &kp LA(LC(N2))           &kp LA(LC(N1))                        &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(DOWN_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans  &trans
+&kp LA(LC(LG(N6)))  &kp LC(LA(LG(N5)))       &kp LA(LC(LG(N4)))       &kp LA(LC(LG(N3)))       &kp LA(LC(LG(N2)))       &kp LA(LC(LG(N1)))  &trans    &trans  &trans  &kp LA(LC(LG(L)))       &trans                  &kp LA(LC(LG(K)))        &trans  &trans
+                                                                      &trans                   &trans                   &trans              &trans    &trans  &trans  &trans                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
