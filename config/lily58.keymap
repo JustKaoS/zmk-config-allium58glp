@@ -19,10 +19,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    flavor = "balanced";
-    tapping-term-ms = <180>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <160>;
     quick-tap-ms = <175>;
-    require-prior-idle-ms = <100>;
+    require-prior-idle-ms = <0>;
 };
 
 &lt {
