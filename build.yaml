@@ -22,6 +22,8 @@ include:
   - board: nice_nano_v2
     shield: lily58_left nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart
+    # Central half only: read the right half's battery and pass it on to the computer
+    cmake-args: -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y
   - board: nice_nano_v2
     shield: lily58_right nice_view_adapter nice_view
   - board: nice_nano_v2
